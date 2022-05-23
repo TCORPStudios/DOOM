@@ -12,8 +12,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: cd
+      run: cd linuxdoom-1.10
     - name: make
-      run: sudo make install
+      run: sudo make
     - name: make check
       run: make check
     - name: make distcheck
