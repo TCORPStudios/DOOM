@@ -12,8 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: cd
-      run: cd /home/DOOM/linuxdoom-1.10/
     - name: make
       run: sudo make install
     - name: make check
