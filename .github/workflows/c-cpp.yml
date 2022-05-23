@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: cd
-      run: cd $DOOM/linuxdoom-1.10/
+      run: cd /home/DOOM/linuxdoom-1.10/
     - name: make
       run: sudo make install
     - name: make check
